@@ -1,17 +1,17 @@
 <template>
     <a href="#" class="mb-7 group">
-        <VideoItemTrumbnail :index="index" />
+        <VideoItemThumbnail :index="index" />
         <VideoItemInfo :index="index" />
     </a>
 </template>
 
 <script>
-import VideoItemTrumbnail from './VideoItemTrumbnail.vue'
+import VideoItemThumbnail from './VideoItemThumbnail.vue'
 import VideoItemInfo from './VideoItemInfo.vue'
 
 export default {
     components: {
-        VideoItemTrumbnail,
+        VideoItemThumbnail,
         VideoItemInfo
     },
     props: ['index']
